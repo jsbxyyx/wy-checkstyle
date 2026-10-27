@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.jsbxyyx</groupId>
-    <artifactId>wy-checkstyle</artifactId>
+    <artifactId>checkstyle</artifactId>
     <version>${revision}</version>
     <name>wy-checkstyle</name>
     <description>wy-checkstyle</description>
@@ -29,7 +29,7 @@
         <developerConnection>scm:git@github.com:jsbxyyx/wy-checkstyle.git</developerConnection>
     </scm>
     <properties>
-        <revision>1.0.1</revision>
+        <revision>2.0.0</revision>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
