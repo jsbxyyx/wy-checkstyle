@@ -134,6 +134,18 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.sonatype.central</groupId>
+                <artifactId>central-publishing-maven-plugin</artifactId>
+                <version>0.11.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <!-- ./mvnw -s $HOME/.m2/settings.xml clean deploy -DskipTests -->
+                    <!-- .\mvnw.cmd -s %USERPROFILE%\.m2\settings.xml clean deploy -DskipTests -->
+                    <publishingServerId>io.github.jsbxyyx</publishingServerId>
+                    <!-- Authentication is configured through Maven settings.xml server credentials. -->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
