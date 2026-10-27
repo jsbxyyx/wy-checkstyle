@@ -29,7 +29,7 @@
         <developerConnection>scm:git@github.com:jsbxyyx/wy-checkstyle.git</developerConnection>
     </scm>
     <properties>
-        <revision>1.0.0</revision>
+        <revision>1.0.1</revision>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
